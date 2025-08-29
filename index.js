@@ -49,14 +49,14 @@ for(let a = 0 ; a < callButton.length ; a++){
 
         
         const div = document.createElement("div");
-        div.classList.add("p-4", "mt-2", "rounded-lg", "bg-white", "flex", "justify-between", "items-center", "shadow");
+        div.classList.add("p-4", "mt-2", "rounded-lg", "bg-white", "flex", "justify-between", "items-center", "shadow", "w-[206px]", "h-[100px]");
         div.innerHTML = `
             <div>
-                <h1 class="text-sm font-bold">${serviceName}</h1>
-                <h1 class="font-bold text-xl">${serviceNumber}</h1>
+                <h1 class="text-base font-bold">${serviceName}</h1>
+                <h1 class="font-bold text-sm text-gray-500">${serviceNumber}</h1>
             </div>
             <div>
-                <h2 class="font-bold text-lg">${time}</h2>
+                <h2 class="font-bold text-xs ">${time}</h2>
             </div>
         `;
 
